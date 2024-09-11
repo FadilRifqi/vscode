@@ -1,0 +1,194 @@
+{
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    //   "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.showTabs": "none",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.guides.indentation": false,
+    //asd
+    "vscode_custom_css.imports": [
+        "file:///home/fadilrifqi/Documents/vscode.css"
+    ],
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.startupEditor": "none",
+    "window.titleBarStyle": "custom",
+    "apc.electron": {
+        "backgroundColor": "rgba(255, 255, 255, .1)",
+        "vibrancy": "sidebar",
+        "transparent": true,
+        "visualEffectState": "active",
+        "titleBarStyle": "hidden",
+        "trafficLightPosition": {
+            "x": 7,
+            "y": 10
+        }
+    },
+    "apc.statusBar": {
+        "position": "editor-bottom",
+        "height": 32
+    },
+    "apc.listRow": {
+        "height": 24,
+        "fontSize": 13
+    },
+    "apc.stylesheet": {
+        "*": "font-family: Geist Mono Semibold;",
+        ".editor .title": "background: transparent !important;",
+        ".actions-container.highlight-toggled": "display: none !important;",
+        ".editor .title .actions-container .action-item a": "visibility: hidden;",
+        ".editor .title .actions-container": "flex-direction: row-reverse;",
+        ".editor .scrollbar .slider": "visibility: hidden;",
+        ".editor .scrollbar:hover .slider": "visibility: initial;",
+        ".monaco-editor .cursor": "background: #ffbf00!important;"
+    },
+    //   "apc.activityBar": {
+    //     "position": "bottom",
+    //     "visible": true
+    //   },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "editor.accessibilitySupport": "off",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "workbench.settings.applyToAllProfiles": ["editor.formatOnSave"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "blade.format.enable": true,
+    "notebook.formatOnSave.enabled": true,
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.tsx": "typescriptreact",
+        "*.html": "html"
+    },
+    "bladeFormatter.format.noMultipleEmptyLines": true,
+    "bladeFormatter.format.indentInnerHtml": true,
+    "bladeFormatter.format.noSingleQuote": true,
+    "bladeFormatter.format.useTabs": true,
+    "git.autofetch": true,
+    "github.copilot.advanced": {},
+    "github.copilot.chat.localeOverride": "en",
+    //   "github.copilot.enable": {
+    //     "plaintext": "true",
+    //     "markdown": "true",
+    //     "scminput": "true"
+    //   },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[mdx]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[graphql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+        // "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "terminal.integrated.splitCwd": "workspaceRoot",
+    "workbench.activityBar.location": "bottom",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "discord.lowerDetailsEditing": "kepo🤪",
+    "discord.lowerDetailsNoWorkspaceFound": "Ngoding",
+    "discord.detailsEditing": "",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "discord.detailsIdling": "",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "bladeFormatter.format.indentSize": 1,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "window.customTitleBarVisibility": "auto",
+    "git.confirmSync": false,
+    "glassit.alpha": 245,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "glassit-linux.opacity": 20,
+    "workbench.statusBar.visible": false,
+    "makefile.configureOnOpen": true,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.errorColor": "",
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "indentRainbow.ignoreErrorLanguages": ["*", "markdown"]
+}

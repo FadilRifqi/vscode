@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "down",
+    "command": "editor.action.scrollDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "down",
+    "command": "-editor.action.scrollDownHover",
+    "when": "editorHoverFocused"
+  }
+]
